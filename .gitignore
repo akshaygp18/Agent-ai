@@ -141,3 +141,23 @@ configs/secrets.yaml
 
 
 
+ai/pyvenv.cfg
+ai/Include/site/python3.11/greenlet/greenlet.h
+ai/Scripts/activate
+ai/Scripts/activate.bat
+ai/Scripts/Activate.ps1
+ai/Scripts/deactivate.bat
+ai/Scripts/distro.exe
+ai/Scripts/dotenv.exe
+ai/Scripts/f2py.exe
+ai/Scripts/httpx.exe
+ai/Scripts/nltk.exe
+ai/Scripts/llamaindex-cli.exe
+ai/Scripts/normalizer.exe
+ai/Scripts/openai.exe
+ai/Scripts/pip.exe
+ai/Scripts/pip3.11.exe
+ai/Scripts/pythonw.exe
+ai/Scripts/tqdm.exe
+ai/Scripts/python.exe
+ai/Scripts/pip3.exe

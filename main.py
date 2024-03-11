@@ -7,6 +7,7 @@ from note_engine import note_engine
 from llama_index.tools import QueryEngineTool, ToolMetadata
 from llama_index.agent import ReActAgent
 from llama_index.llms import OpenAI
+from pdf import canada_engine
 
 load_dotenv()
 
@@ -20,9 +21,19 @@ population_query_engine.update_prompts({"pandas_prompt": new_prompt})
 
 tools = [
     note_engine,
-    QueryEngineTool(query_engine=population_query_engine, metadata=ToolMetadata(
-        name="population_data",
-        description="this gives information at the world population and demograhics",
+    QueryEngineTool(
+        query_engine=population_query_engine, 
+        metadata=ToolMetadata(
+            name="population_data",
+            description="this gives information at the world population and demograhics",
+        ),
+    ),
+
+    QueryEngineTool(
+        query_engine=canada_engine, 
+        metadata=ToolMetadata(
+            name="canada_data",
+            description="this gives detialed information about canada the country",
         ),
     ),
 ]

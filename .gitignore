@@ -161,3 +161,9 @@ ai/Scripts/pythonw.exe
 ai/Scripts/tqdm.exe
 ai/Scripts/python.exe
 ai/Scripts/pip3.exe
+data/notes.txt
+canada/default__vector_store.json
+canada/docstore.json
+canada/graph_store.json
+canada/image__vector_store.json
+canada/index_store.json

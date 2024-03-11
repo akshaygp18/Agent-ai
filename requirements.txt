@@ -1,0 +1,4 @@
+llama-index==0.9.36
+pypdf
+python-dotenv
+pandas
